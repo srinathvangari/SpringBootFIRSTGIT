@@ -1,7 +1,7 @@
 package com.srinath.springboot1;
 
 
-
+ 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,7 +12,7 @@ public class FirstRestController {
 	
 	 private static final Logger LOGGER = LogManager.getLogger(FirstRestController.class);
 	
-	@GetMapping(path="hello-bean")
+	@GetMapping(path="hello-bean  jjj" )
 	public String helloBean(){
 		LOGGER.info("Info level log message  Srinath  ");
         LOGGER.debug("Debug level log message");
